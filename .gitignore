@@ -1,0 +1,81 @@
+
+---
+
+# .gitignore (copiar y pegar en `.gitignore`)
+
+```gitignore
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env*
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+*.nbconvert.ipynb
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Project outputs
+/out/
+*.npy
+*.csv
+*.png
+
+# === LaTeX ===
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.xdy
+*.lol
+
+# Generated PDFs (keep if you want to version them)
+# *.pdf
+
+# Overleaf sync artifacts
+*.synctex*
